@@ -2,9 +2,9 @@
 
 A task manager site created using a non-relational database, MongoDB. This site was created as part of a walkthrough project from the Code Institute.
 
-Add site responsive screenshot here ![]()
+Add site responsive screenshot here
 
-Link to deployed site to go here []()
+Link to deployed site to go here
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/mongodb-taskmanager?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/mongodb-taskmanager?style=for-the-badge)
@@ -47,15 +47,11 @@ Link to deployed site to go here []()
 
 ### User Stories
 
-
 #### First Time Visitor Goals
-
 
 #### Returning Visitor Goals
 
-
 #### Frequent Visitor Goals
-
 
 - - -
 
@@ -65,14 +61,11 @@ Link to deployed site to go here []()
 
 Image of colour scheme to go here
 
-
 ### Typography
 
-Google Fonts was used to import the chosen fonts for use in the site. 
-
+Google Fonts was used to import the chosen fonts for use in the site.
 
 ### Imagery
-
 
 ### Wireframes
 
@@ -87,7 +80,6 @@ The website is comprised of …
 * All Pages on the website have:
 
 * Future Implementations.
-
 
 ### Accessibility
 

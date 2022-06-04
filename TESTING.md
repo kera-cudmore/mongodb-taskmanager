@@ -1,6 +1,6 @@
 # MongoDB Task Manager
 
-Site image here 
+Site image here
 
 Visit the deployed site: site link here
 
@@ -34,33 +34,25 @@ I have gone through each page using google chrome developer tools & Firefox insp
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-* 
-
 - - -
 
 ### JavaScript Validator
 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
-* 
-
 - - -
 
 ### Python Validator
 
-[PEP8]()was used to validate the python files.
-
-*
+[PEP8](http://pep8online.com/)was used to validate the python files.
 
 - - -
-
 
 ### Lighthouse
 
 I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
 
 ### Desktop Results
-
 
 ### Mobile Results
 
@@ -110,7 +102,7 @@ Each device tested the site using the following browsers:
 * Safari
 * Firefox
 
-Additional testing was taken by friends and family on a variety of devices and screen sizes. 
+Additional testing was taken by friends and family on a variety of devices and screen sizes.
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
