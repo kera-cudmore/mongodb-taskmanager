@@ -1,6 +1,9 @@
+"""
+Import OS, Flask, Pymongo, ObjectId
+"""
 import os
 from flask import (
-    Flask, flash, render_template, 
+    Flask, flash, render_template,
     redirect, request, session, url_for)
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
@@ -16,9 +19,13 @@ app.secret_key = os.environ.get("SECRET_KEY")
 
 mongo = PyMongo(app)
 
+
 @app.route("/")
 @app.route("/get_tasks")
 def get_tasks():
+    """
+    gets the tasks page
+    """
     tasks = mongo.db.tasks.find()
     return render_template("tasks.html", tasks=tasks)
 
