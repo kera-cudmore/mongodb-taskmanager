@@ -36,9 +36,29 @@ def register():
     """
     register page
     """
+    if request.method == "POST":
+        # Check if the username already exists in the database
+        existing_user = mongo.db.users.find_one(
+            {"username": request.form.get("username").lower()})
+
+        # if the username is in use, flash message & redirect to register page
+        if existing_user:
+            flash("Username already exists")
+            return redirect(url_for("register"))
+
+        # if no existing username - gather info from form to be added to db
+        register = {
+            "username": request.form.get("username").lower(),
+            "password": generate_password_hash(request.form.get("password"))
+        }
+        # Calls the users collection on MongoDB &
+        # inserts the register variable dictionary
+        mongo.db.users.insert_one(register)
+
+        # Put the new user into the 'session'
+        session["user"] = request.form.get("username").lower()
+        flash("Registration successful!")
     return render_template("register.html")
-
-
 
 
 # IMPORTANT! debug should be set to false before deployment & submission
@@ -46,4 +66,3 @@ if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
             port=int(os.environ.get("PORT")),
             debug=True)
-
