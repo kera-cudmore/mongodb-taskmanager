@@ -58,6 +58,7 @@ def register():
         # Put the new user into the 'session'
         session["user"] = request.form.get("username").lower()
         flash("Registration successful!")
+        return redirect(url_for("profile", username=session["user"]))
     return render_template("register.html")
 
 
@@ -77,6 +78,9 @@ def login():
                 existing_user["password"], request.form.get("password")):
                     session["user"] = request.form.get("username").lower()
                     flash("Welcome, {}".format(request.form.get("username")))
+                    return redirect(url_for(
+                        "profile", username=session["user"]))
+
             else:
                 # invalid password match - By using and/or incorrect
                 #  - makes harded to brute force an account
@@ -91,6 +95,17 @@ def login():
     
     # the get statement acts as the else in the above condition
     return render_template("login.html")
+
+
+@app.route("/profile/<username>", methods=["GET", "POST"])
+def profile(username):
+    """
+    Profile page for user - pass username as function argument
+    grabs the session user's username from the database
+    """
+    username = mongo.db.users.find_one(
+        {"username": session["user"]})["username"]
+    return render_template("profile.html", username=username)
 
 
 # IMPORTANT! debug should be set to false before deployment & submission
