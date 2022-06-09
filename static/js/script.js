@@ -15,6 +15,11 @@ $(document).ready(function () {
     $('.tooltipped').tooltip();
 });
 
+// Dropdowns for the categories in add task
+$(document).ready(function(){
+    $('select').formSelect();
+  });
+
 /* Date Picker for Task Due Date
   - format = the way the date is formatted to be stored in the database
   - yearRange = the number of years to display on either side of the current year
