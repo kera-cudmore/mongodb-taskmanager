@@ -1,5 +1,6 @@
 """
-Import OS, Flask, Pymongo, ObjectId, generate password hash & check password hash
+Import OS, Flask, Pymongo, ObjectId, generate password hash
+& check password hash
 """
 import os
 from flask import (
@@ -73,7 +74,7 @@ def login():
             {"username": request.form.get("username").lower()})
 
         if existing_user:
-            #ensure hashed password matches user input
+            # Ensure hashed password matches user input
             if check_password_hash(
                 existing_user["password"], request.form.get("password")):
                     session["user"] = request.form.get("username").lower()
@@ -92,7 +93,7 @@ def login():
             #  - makes harded to brute force an account
             flash("Incorrect Username and/or Password")
             return redirect(url_for("login"))
-    
+
     # the get statement acts as the else in the above condition
     return render_template("login.html")
 
@@ -116,7 +117,9 @@ def profile(username):
 
 @app.route("/logout")
 def logout():
-    #remove user from session cookies - removes the user session
+    """
+    Removes the user from session cookies - removes the user session
+    """
     flash("You have been logged out")
     session.pop("user")
     return redirect(url_for("login"))
@@ -151,7 +154,7 @@ def add_task():
 @app.route("/edit_task/<task_id>", methods=["GET", "POST"])
 def edit_task(task_id):
     """
-    editing a task
+    Editing a task
     """
     if request.method == "POST":
         is_urgent = "on" if request.form.get("is_urgent") else "off"
@@ -179,6 +182,16 @@ def delete_task(task_id):
     mongo.db.tasks.delete_one({"_id": ObjectId(task_id)})
     flash("Task Successfully Deleted")
     return redirect(url_for("get_tasks"))
+
+
+@app.route("/get_categories")
+def get_categories():
+    """
+    Gets the categories from the database and renders them alphabetically
+    """
+    categories = list(mongo.db.categories.find().sort("category_name", 1))
+    return render_template("categories.html", categories=categories)
+
 
 # IMPORTANT! debug should be set to false before deployment & submission
 if __name__ == "__main__":
