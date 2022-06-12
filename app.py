@@ -193,6 +193,25 @@ def get_categories():
     return render_template("categories.html", categories=categories)
 
 
+@app.route("/add_category", methods=["GET", "POST"])
+def add_category():
+    """
+    Adding categories
+    if post - we grab the data from the form and insert it into to db
+    if get - we display the empty form to the admin
+    """
+    if request.method == "POST":
+        category = {
+            "category_name": request.form.get("category_name")
+        }
+        mongo.db.categories.insert_one(category)
+        flash("New Category Added")
+        return redirect (url_for("get_categories"))
+
+    return render_template("add_category.html")
+
+
+
 # IMPORTANT! debug should be set to false before deployment & submission
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
