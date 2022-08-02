@@ -2,9 +2,9 @@
 
 A task manager site created using a non-relational database, MongoDB. This site was created as part of a walkthrough project from the Code Institute.
 
-Add site responsive screenshot here
+![MongoDB Task Manager Responsive Site Image](static/images/mongodb-taskmanager.png)
 
-Link to deployed site to go here
+Link to deployed site: [MongoDB Task Manager](https://mongodb-taskmanager.herokuapp.com/)
 
 ![GitHub last commit](https://img.shields.io/github/last-commit/kera-cudmore/mongodb-taskmanager?style=for-the-badge)
 ![GitHub contributors](https://img.shields.io/github/contributors/kera-cudmore/mongodb-taskmanager?style=for-the-badge)

@@ -1,8 +1,8 @@
 # MongoDB Task Manager
 
-Site image here
+![MongoDB Task Manager Site Responsive Image](static/images/mongodb-taskmanager.png)
 
-Visit the deployed site: site link here
+Visit the deployed site: [MongoDB Task Manager](https://mongodb-taskmanager.herokuapp.com/)
 
 - - -
 
