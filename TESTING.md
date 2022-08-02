@@ -71,17 +71,26 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 `First Time Visitors`
 
 | Goals | How are they achieved? |
-| :--- | :--- |
+| :--- | :--- | :--- |
+| I want the site to be easy to navigate. | :--- | :--- |
+| I want to be able to add categories to store my tasks in. | :--- | :--- |
+| I want to be able to save tasks I create in a category of my choice. | :--- | :--- |
+| I want to be able to sign up for an account. | :--- | :--- |
 
 `Returning Visitors`
 
 |  Goals | How are they achieved? |
-| :--- | :--- |
+| :--- | :--- | :--- |
+| I want to be able to log in to my account. | :--- | :--- |
+| I want to be able to edit tasks. | :--- | :--- |
+| I want to be able to edit categories. | :--- | :--- |
 
 `Frequent Visitors`
 
 | Goals | How are they achieved? |
-| :--- | :--- |
+| :--- | :--- | :--- |
+| I want to be able to delete tasks I no longer want. | :--- | :--- |
+| I want to be able to delete categories that I no longer need. | :--- | :--- |
 
 - - -
 

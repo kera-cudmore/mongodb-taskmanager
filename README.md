@@ -49,9 +49,21 @@ Link to deployed site: [MongoDB Task Manager](https://mongodb-taskmanager.heroku
 
 #### First Time Visitor Goals
 
+* As a first time user, I want the site to be easy to navigate.
+* As a first time user, I want to be able to add categories to store my tasks in.
+* As a first time user, I want to be able to save tasks I create in a category of my choice.
+* As a first time user, I want to be able to sign up for an account.
+
 #### Returning Visitor Goals
 
+* As a returning user, I want to be able to edit tasks.
+* As a returning user, I want to be able to edit categories.
+* As a returning user, I want to be able to log in to my account.
+
 #### Frequent Visitor Goals
+
+* As a frequent user, I want to be able to delete tasks I no longer want.
+* As a frequent user, I want to be able to delete categories that I no longer need.
 
 - - -
 
