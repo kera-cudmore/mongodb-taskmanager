@@ -27,6 +27,8 @@ Link to deployed site: [MongoDB Task Manager](https://mongodb-taskmanager.heroku
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
   * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+  * [Defensive Programming](#Defensive-Programming)
+
 
 * [Deployment & Local Development](#Deployment-&-Local-Development)
   * [Deployment](#Deployment)
@@ -71,13 +73,17 @@ Link to deployed site: [MongoDB Task Manager](https://mongodb-taskmanager.heroku
 
 ### Colour Scheme
 
-Image of colour scheme to go here
+The colour theme for the site is the same as the one used during the walkthrough videos, the colours used are from Materialize blue colour palette.
+
+![Materialize colour palette](documentation/materialize-colour.png)
 
 ### Typography
 
-Google Fonts was used to import the chosen fonts for use in the site.
+No font was specified for use with the site, therefore the default font settings were used.
 
 ### Imagery
+
+The site has been created to  learn and showcase CRUD functionality, no images have been used.
 
 ### Wireframes
 
@@ -87,7 +93,7 @@ Wireframes links/images to go here
 
 ### Features
 
-The website is comprised of …
+The website is comprised of … pages:
 
 * All Pages on the website have:
 
@@ -124,8 +130,6 @@ Flask
 
 MongoDB
 
-Google Fonts - To import the fonts used on the website.
-
 Font Awesome - For the iconography on the website.
 
 Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
@@ -139,6 +143,9 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 [Shields.io](https://shields.io/) To add badges to the README
+
+### Defensive Programming
+
 
 - - -
 
