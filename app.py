@@ -42,7 +42,6 @@ def search():
     return render_template("tasks.html", tasks=tasks)
 
 
-
 @app.route("/register", methods=["GET", "POST"])
 def register():
     """
