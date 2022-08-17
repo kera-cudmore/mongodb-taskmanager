@@ -29,7 +29,6 @@ Link to deployed site: [MongoDB Task Manager](https://mongodb-taskmanager.heroku
   * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
   * [Defensive Programming](#Defensive-Programming)
 
-
 * [Deployment & Local Development](#Deployment-&-Local-Development)
   * [Deployment](#Deployment)
   * [Local Development](#Local-Development)
@@ -83,7 +82,7 @@ No font was specified for use with the site, therefore the default font settings
 
 ### Imagery
 
-The site has been created to  learn and showcase CRUD functionality, no images have been used.
+The site has been created to  learn and showcase CRUD functionality, no images have been used. All icons used in this project were sourced from [Font Awesome](https://fontawesome.com/).
 
 ### Wireframes
 
@@ -146,6 +145,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 ### Defensive Programming
 
+Info about defensive programming used to go here.
 
 - - -
 
@@ -192,7 +192,3 @@ Please see [testing.md](testing.md) for all testing performed
 ### Code Used
 
 This site was created as part of a walkthrough project with the Code Institute.
-
-### Content
-
-### Media
