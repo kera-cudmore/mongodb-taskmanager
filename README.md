@@ -94,9 +94,26 @@ Wireframes links/images to go here
 
 The website is comprised of … pages:
 
-* All Pages on the website have:
+All Pages on the website have:
 
-* Future Implementations.
+* A Favicon. The favicon for the site was created at [Favicon.io](https://favicon.io/emoji-favicons/check-box-with-check) and was generated using the following graphics from Twitter Twemoji:
+
+  * Graphics Title: 2611.svg
+  * Graphics Author: [Copyright 2020 Twitter, Inc and other contributors](https://github.com/twitter/twemoji)
+  * Graphics Source: [Twemoji](https://github.com/twitter/twemoji/blob/master/assets/svg/2611.svg)
+  * Graphics License: [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+
+    ![MongoDB Task Manager Favicon](documentation/favicon.png)
+
+* A Navbar.The navbar contains links to the home, login and register pages when a user is not logged in. When a user is logged in the navbar will then display links for home, profile, new task, manage categories and log out. The navbar is responsive and on smaller devices uses the hamburger icon. When this is clicked the menu opens to the right of the screen.
+
+  ![MongoDB Task Manager Navbar - Desktop](documentation/navbar-desktop.png)
+
+  ![MongoDB Task Manager Navbar - Mobile](documentation/navbar-mobile.png)
+
+  ![MongoDB Task Manager Navbar - Mobile Open](documentation/navbar-mobile-open.png)
+
+Future Implementations.
 
 ### Accessibility
 
