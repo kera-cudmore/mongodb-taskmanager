@@ -42,7 +42,7 @@ During development I made use of google developer tools to ensure everything was
 * [tasks.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fget_tasks)
 * [edit_category.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fedit_category%2F629a1fc0c611a37970709c45)
 
-[style.css](documentation/testing/css.png)
+* [style.css](documentation/testing/css.png)
 
 - - -
 
@@ -50,7 +50,7 @@ During development I made use of google developer tools to ensure everything was
 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
-* [script.js]](documentation/testing/javascript.png)
+* [script.js](documentation/testing/javascript.png)
 
 - - -
 
