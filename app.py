@@ -86,11 +86,11 @@ def login():
         if existing_user:
             # Ensure hashed password matches user input
             if check_password_hash(
-                existing_user["password"], request.form.get("password")):
-                    session["user"] = request.form.get("username").lower()
-                    flash("Welcome, {}".format(request.form.get("username")))
-                    return redirect(url_for(
-                        "profile", username=session["user"]))
+                    existing_user["password"], request.form.get("password")):
+                session["user"] = request.form.get("username").lower()
+                flash("Welcome, {}".format(request.form.get("username")))
+                return redirect(url_for(
+                    "profile", username=session["user"]))
 
             else:
                 # invalid password match - By using and/or incorrect
@@ -216,7 +216,7 @@ def add_category():
         }
         mongo.db.categories.insert_one(category)
         flash("New Category Added")
-        return redirect (url_for("get_categories"))
+        return redirect(url_for("get_categories"))
 
     return render_template("add_category.html")
 
@@ -230,7 +230,8 @@ def edit_category(category_id):
         submit = {
             "category_name": request.form.get("category_name")
         }
-        mongo.db.categories.update_one({"_id": ObjectId(category_id)}, {"$set": submit})
+        mongo.db.categories.update_one(
+            {"_id": ObjectId(category_id)}, {"$set": submit})
         flash("Category Successfully Updated")
         return redirect(url_for("get_categories"))
 
