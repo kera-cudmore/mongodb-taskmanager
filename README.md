@@ -26,7 +26,10 @@ Link to deployed site: [MongoDB Task Manager](https://mongodb-taskmanager.heroku
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
-  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+  * [Database Used](#Database-Used)
+  * [Frameworks Used](#Frameworks-Used)
+  * [Libraries & Packages Used](#Libraries-&-Packages-Used)
+  * [Programs Used](#Programs-Used)
   * [Defensive Programming](#Defensive-Programming)
 
 * [Deployment & Local Development](#Deployment-&-Local-Development)
