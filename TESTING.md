@@ -22,10 +22,6 @@ Testing was ongoing throughout the entire build. I utilised Chrome developer too
 
 During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.
 
-I utilised the console in the developer tools to work through small sections of JavaScript and ensure that the code was working, and also to troubleshoot where issues were.
-
-I have gone through each page using google chrome developer tools & Firefox inspector tool to ensure that each page is responsive on a variety of different screen sizes and devices.
-
 - - -
 
 ## AUTOMATED TESTING
@@ -34,17 +30,32 @@ I have gone through each page using google chrome developer tools & Firefox insp
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
+[add_category.html]()
+[add_task.html]()
+[categories.html]()
+[edit_category.html]()
+[edit_task.html]()
+[login.html]()
+[profile.html]()
+[register.html]()
+[tasks.html]()
+
+[style.css](documentation/testing/css.png)
+
 - - -
 
 ### JavaScript Validator
 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
+[script.js]](documentation/testing/javascript.png)
 - - -
 
 ### Python Validator
 
 [PEP8](http://pep8online.com/)was used to validate the python files.
+
+[app.py](documentation/testing/python.png)
 
 - - -
 
@@ -72,25 +83,24 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 | Goals | How are they achieved? |
 | :--- | :--- | :--- |
-| I want the site to be easy to navigate. | :--- | :--- |
-| I want to be able to add categories to store my tasks in. | :--- | :--- |
-| I want to be able to save tasks I create in a category of my choice. | :--- | :--- |
-| I want to be able to sign up for an account. | :--- | :--- |
+| I want the site to be easy to navigate. | The site features a navbar which allows the user to easily navigate through the site. | ![Navbar](documentation/navbar-desktop.png) |
+| I want to be able to add categories to store my tasks in. | When the user navigates to the manage categories page they are given the option to create a new category. | :--- |
+| I want to be able to save tasks I create in a category of my choice. | The user is given the option to create a new task from the home page, and when creating the task they can assign the task to the category of their choice. | :--- |
+| I want to be able to sign up for an account. | If a user is not signed in to the site, the register link will display in the navbar, allowing users to sign up to an account. | :--- |
 
 `Returning Visitors`
 
 |  Goals | How are they achieved? |
 | :--- | :--- | :--- |
-| I want to be able to log in to my account. | :--- | :--- |
-| I want to be able to edit tasks. | :--- | :--- |
-| I want to be able to edit categories. | :--- | :--- |
+| I want to be able to log in to my account. | If a user is not logged in, the navbar will display a login and register link. | :--- |
+| I want to be able to edit tasks. | When the user expands a task, they are given the option via button to edit the task. | :--- |
+| I want to be able to edit categories. | When the user visits the categories page, they are given the option via button on each category card to edit the category. | :--- |
 
 `Frequent Visitors`
 
 | Goals | How are they achieved? |
 | :--- | :--- | :--- |
-| I want to be able to delete tasks I no longer want. | :--- | :--- |
-| I want to be able to delete categories that I no longer need. | :--- | :--- |
+| I want to be able to delete categories that I no longer need. | When the user visits the manage categories page, they are given the option via button on each category card to delete the category. | :--- |
 
 - - -
 
@@ -115,5 +125,18 @@ Additional testing was taken by friends and family on a variety of devices and s
 
 | Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
 | --- | --- | --- | --- | --- |
-| `Home Page` |
+| ` Navbar` |
 | --- | --- | --- | --- | --- |
+| Task Manager site name | Redirects the user to the home page | Clicked the link | Redirected to the home page | Pass |
+| Home |  Redirects the user to the home page  | Clicked the link | Redirected to the home page | Pass |
+| Profile (Logged in user) | Redirects the user to the profile page | Clicked the link | Redirected to the profile page | Pass |
+| New Task (Logged in user) | Redirects the user to the new task page | Clicked the link | Redirected to the new task page | Pass |
+| Manage Categories (Logged in user) | Redirects the user to the manage categories page | Clicked the link | Redirected to the manage categories page | Pass |
+| Log Out (Logged in user) | Logs the user out of the session and redirects to the home page. Links in the navbar should change to only display home, login and register | Clicked the link | User logged out and redirected to the home page. Links changed in navbar to only display home, login and register  | Pass |
+| Login (No user in session) | Redirects the user to the login page | Clicked the link | Redirected to the login page | Pass |
+| Register (No user in session) | Redirects the user to the register page | Clicked the link | Redirected to the register page | Pass |
+| Hamburger menu on smaller devices | Opens the full nav menu | Clicked on the hamburger menu | full menu opens | Pass |
+
+|  |  |  |  |  |
+|  |  |  |  |  |
+|  |  |  |  |  |
