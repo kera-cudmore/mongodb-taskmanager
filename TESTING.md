@@ -13,10 +13,12 @@ Visit the deployed site: [MongoDB Task Manager](https://mongodb-taskmanager.hero
   * [JavaScript Validator](#JavaScript-Validator)
   * [Python Validator](#Python-Validator)
   * [Lighthouse](#Lighthouse)
-  * [WAVE Testing](#WAVE-Testing)
 * [MANUAL TESTING](#MANUAL-TESTING)
   * [Testing User Stories](#Testing-User-Stories)
   * [Full Testing](#Full-Testing)
+* [Bugs](#Bugs)
+  * [Known Bugs](#Known-Bugs)
+  * [Solved Bugs](#Solved-Bugs)
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
 
@@ -90,16 +92,9 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 - - -
 
-### WAVE Testing
-
-[WAVE](http://wave.webaim.org/) (Web Accessibility Evaluation Tool) allows developers to create content that is more accessible to users with disabilities. It does this by identifying accessibility and WGAC errors.
-
-- - -
-
 ## MANUAL TESTING
 
 ### Testing User Stories
-
 
 | Goals | How are they achieved? | |
 | :--- | :--- | :--- |
@@ -172,3 +167,22 @@ Additional testing was taken by friends and family on a variety of devices and s
 | `Edit Category Page` |  |  |  |  |
 | Cancel Button | Returns the user to the manage categories page with no changes made to the category | clicked cancel button | Redirected to the manage categories page, no changes were made to the category | Pass |
 | Edit Category Button | User will be redirected to the manage categories page where a flash message tells them the category has been successfully updated. The Category has been updated | Changed a category name and clicked edit category button | Redirected to the manage categories page where a flash message displays my category has been successfully updated. The category name on the category card has been changed. | Pass |
+
+- - -
+
+## Bugs
+
+### Known Bugs
+
+| Known Bug No | Bug Issue | Plan to Resolve |
+| 1 | Contrast on the site is not suffient to pass contrast checks on WAVE - this could also explain why some accessibility scores were low when testing using lighthouse | Adjust the colour scheme of the site to ensure colour contrast is sufficient |
+| 2 | Edit Task page is not redirecting to the home page | Check the routes for the edit task page |
+
+### Solved Bugs
+
+<!-- | Bug No | Bug Issue | How Resolved |
+| :--- | :--- | :--- |
+-->
+- - -
+
+Back to [README.md](README.md)
