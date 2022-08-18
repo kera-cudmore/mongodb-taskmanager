@@ -175,6 +175,7 @@ Additional testing was taken by friends and family on a variety of devices and s
 ### Known Bugs
 
 | Known Bug No | Bug Issue | Plan to Resolve |
+| :--- | :--- | :--- |
 | 1 | Contrast on the site is not suffient to pass contrast checks on WAVE - this could also explain why some accessibility scores were low when testing using lighthouse | Adjust the colour scheme of the site to ensure colour contrast is sufficient |
 | 2 | Edit Task page is not redirecting to the home page | Check the routes for the edit task page |
 
