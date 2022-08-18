@@ -115,12 +115,14 @@ All Pages on the website have:
 
 Future Implementations.
 
+* Defensive programming - I would like to add a modal that pops up when a user wants to delete a category. This would provide an extra layer of security to confirm that the user does want to delete the record from the database, and would alert the user to the fact that this action is permanent and cannot be undone.
+* 404 Error Page.
+
 ### Accessibility
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
 
 * Using semantic HTML.
-* Using descriptive alt attributes on images on the site.
 * Providing information for screen readers where there are icons used and no text.
 * Ensuring that there is a sufficient colour contrast throughout the site.
 
