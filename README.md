@@ -42,8 +42,6 @@ Link to deployed site: [MongoDB Task Manager](https://mongodb-taskmanager.heroku
   
 * [Credits](#Credits)
   * [Code Used](#Code-Used)
-  * [Content](#Content)
-  * [Media](#Media)
 
 - - -
 
