@@ -66,7 +66,27 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 ### Desktop Results
 
+* [Home/Tasks Page](documentation/testing/lighthouse/home-lhd.png)
+* [Profile Page](documentation/testing/lighthouse/profile-lhd.png)
+* [New Task Page](documentation/testing/lighthouse/newtask-lhd.png)
+* [Manage Categories Page](documentation/testing/lighthouse/managecategories-lhd.png)
+* [Edit Category Page](documentation/testing/lighthouse/editcategory-lhd.png)
+* [Edit Task Page](documentation/testing/lighthouse/edittask-lhd.png)
+* [Add Category Page](documentation/testing/lighthouse/addcategory-lhd.png)
+* [Login Page](documentation/testing/lighthouse/login-lhd.png)
+* [Register Page](documentation/testing/lighthouse/register-lhd.png)
+
 ### Mobile Results
+
+* [Home/Tasks Page](documentation/testing/lighthouse/home-lhm.png)
+* [Profile Page](documentation/testing/lighthouse/profile-lhm.png)
+* [New Task Page](documentation/testing/lighthouse/addtask-lhm.png)
+* [Manage Categories Page](documentation/testing/lighthouse/managecategories-lhm.png)
+* [Edit Category Page](documentation/testing/lighthouse/editcategory-lhm.png)
+* [Edit Task Page](documentation/testing/lighthouse/edittask-lhm.png)
+* [Add Category Page](documentation/testing/lighthouse/addcategory-lhm.png)
+* [Login Page](documentation/testing/lighthouse/login-lhm.png)
+* [Register Page](documentation/testing/lighthouse/register-lhm.png)
 
 - - -
 
