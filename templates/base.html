@@ -74,7 +74,7 @@
         </ul>
     </header>
 
-    <section>
+    <div>
         <!-- Flash messages displayed here -->
         {% with messages = get_flashed_messages() %}
             {% if messages %}
@@ -85,7 +85,7 @@
                 {% endfor %}
             {% endif %}
         {% endwith %}
-    </section>
+    </div>
    
     <main class="container">
         {% block content %}
