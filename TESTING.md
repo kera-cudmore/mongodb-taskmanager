@@ -33,12 +33,12 @@ During development I made use of google developer tools to ensure everything was
 * [add_category.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fadd_category)
 * [add_task.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fadd_task)
 * [categories.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fget_categories)
-* [edit_task.html]()
+* [edit_task.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fedit_task%2F62a5e16f0995a585ef6ec670)
 * [login.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Flogin)
-* [profile.html]()
+* [profile.html](documentation/testing/profile-htmlvalidator.png)
 * [register.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fregister)
 * [tasks.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fget_tasks)
-* [edit_category.html]()
+* [edit_category.html](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fedit_category%2F629a1fc0c611a37970709c45)
 
 [style.css](documentation/testing/css.png)
 
@@ -49,6 +49,7 @@ During development I made use of google developer tools to ensure everything was
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
 * [script.js]](documentation/testing/javascript.png)
+
 - - -
 
 ### Python Validator
