@@ -86,13 +86,21 @@ The site has been created to  learn and showcase CRUD functionality, no images h
 
 ### Wireframes
 
-Wireframes were created for mobile, tablet and desktop using ...
+Wireframes were created for mobile, tablet and desktop using Balsamiq.
 
-Wireframes links/images to go here
+![Home Page](documentation/wireframes/home.png)
+
+![Tasks Page](documentation/wireframes/tasks.png)
+
+![Profile Page](documentation/wireframes/profile.png)
+
+![Manage Categories Page](documentation/wireframes/manage-categories.png)
+
+![Edit Category Page](documentation/wireframes/edit-category.png)
 
 ### Features
 
-The website is comprised of … pages:
+The website is comprised of 9 pages: The register page which allows users to register an account, the login page, the home page which displays all the users tasks, the profile page, the new task page which allows users to create a new task, the manage categories page which displays all categories, the edit category and edit task pages which allow users to edit an existing category & task and the add tasks and add categories pages which allow users to create new categories and tasks.
 
 All Pages on the website have:
 
@@ -113,10 +121,51 @@ All Pages on the website have:
 
   ![MongoDB Task Manager Navbar - Mobile Open](documentation/navbar-mobile-open.png)
 
+- - -
+
+`Home Page (Tasks)`
+
+![Home Page/Tasks Page](documentation/homepage.png)
+
+`Register Page`
+
+![Register Page](documentation/registerpage.png)
+
+`Login Page`
+
+![Login Page](documentation/loginpage.png)
+
+`Profile Page`
+
+![Profile Page](documentation/profilepage.png)
+
+`Add Category Page`
+
+![Add Category Page](documentation/addcategorypage.png)
+
+`Add Task Page`
+
+![Add Tasks Page](documentation/addtaskpage.png)
+
+`Categories Page`
+
+![Categories Page](documentation/categoriespage.png)
+
+`Edit Category Page`
+
+![Edit Category Page](documentation/editcategorypage.png)
+
+`Edit Task Page`
+
+![Edit Tasks Page](documentation/edittaskpage.png)
+
+- - -
+
 Future Implementations.
 
 * Defensive programming - I would like to add a modal that pops up when a user wants to delete a category. This would provide an extra layer of security to confirm that the user does want to delete the record from the database, and would alert the user to the fact that this action is permanent and cannot be undone.
 * 404 Error Page.
+* I would like to improve the profile page for the user, and use this area to allow the user to change their password for their account.
 
 ### Accessibility
 
