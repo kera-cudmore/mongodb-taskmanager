@@ -226,7 +226,7 @@ HTML, CSS, Javascript, Python
 
 ### Defensive Programming
 
-Info about defensive programming used to go here.
+This walkthrough project has introduced the concept of defensive programming, however there are still areas that could be improved.
 
 - - -
 
@@ -234,11 +234,50 @@ Info about defensive programming used to go here.
 
 ### Deployment
 
-The site is deployed using Heroku
+The site is deployed using [Heroku](https://www.heroku.com). To deploy to Heroku:
 
-To deploy to Heroku:
+1. To successfully deploy on Heroku we first need to create some files: a requirements.txt file and a Procfile.
 
-1. Go to ..
+2. The requirements.txt file contains all the applications and dependencies that are required to run the app. To create the requirements.txt file run the following command in the terminal:
+
+    ```bash
+    pip3 freeze --local > requirements.txt
+    ```
+
+3. The Procfile tells Heroku which files run the app and how to run it. To create the Procfile run the following command in the terminal:
+
+    ```bash
+    echo web: python app.py > Procfile
+    ```
+
+    NOTE: The Procfile uses a capital P and doesn't have a file extension on the end.
+
+4. If the Procfile has been created correctly it will have the Heroku logo next to it. It is also important to check the Procfile contents, as sometimes on creation a blank line will be added at the end of the file. This can sometimes cause problems when deploying to Heroku, so if the file contains a blank line at the end, delete this and save the file. Make sure to save both these files and then add, commit and push them to GitHub.
+
+5. Login (or sign up) to [Heroku.com](https://www.heroku.com).
+
+6. Click the new button and then click create new app.
+
+7. You will then be asked to give your app a name (these must be unique) and select a region. Once these are completed click create app.
+
+8. You will now need to connect the Heroku app to the GitHub repository for the site. Select GitHub in the deployment section, find the correct repository for the project and then click connect.
+
+9. Once the repository is connected, you will need to provide Heroku some config variables it needs to build the app. Click on the settings tab and then click reveal config vars button. You will now need to add the environment key/value variables that were used in the env.py file:
+
+    | KEY | VALUE |
+    | :-- | :-- |
+    | IP | 0.0.0.0 |
+    | PORT | 5000 |
+    | SECRET_KEY| YOUR_SECRET_KEY* |
+    | MONGO_URI | MONGO_URI* |
+    | MONGO_DBNAME | MONGO_DB* |
+    | DEBUG | TRUE** |
+
+    *Denotes a value that is specific to your app.
+
+    **This is set to true while deploying to enable us to see any bugs. Please change to FALSE after deployment.
+
+10. You're now ready to click the enable automatic deploys and create button. Heroku will start building the app.
 
 ### Local Development
 
