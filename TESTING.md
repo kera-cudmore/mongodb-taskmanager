@@ -30,15 +30,15 @@ During development I made use of google developer tools to ensure everything was
 
 [W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
 
-[add_category.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fadd_category)
-[add_task.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fadd_task)
-[categories.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fget_categories)
-[edit_category.html]()
-[edit_task.html]()
-[login.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Flogin)
-[profile.html]()
-[register.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fregister)
-[tasks.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fget_tasks)
+* [add_category.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fadd_category)
+* [add_task.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fadd_task)
+* [categories.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fget_categories)
+* [edit_task.html]()
+* [login.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Flogin)
+* [profile.html]()
+* [register.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fregister)
+* [tasks.html](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmongodb-taskmanager.herokuapp.com%2Fget_tasks)
+* [edit_category.html]()
 
 [style.css](documentation/testing/css.png)
 
@@ -48,14 +48,14 @@ During development I made use of google developer tools to ensure everything was
 
 [jshint](https://jshint.com/) was used to validate the JavaScript.
 
-[script.js]](documentation/testing/javascript.png)
+* [script.js]](documentation/testing/javascript.png)
 - - -
 
 ### Python Validator
 
 [PEP8](http://pep8online.com/)was used to validate the python files.
 
-[app.py](documentation/testing/python.png)
+* [app.py](documentation/testing/python.png)
 
 - - -
 
