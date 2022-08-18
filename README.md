@@ -183,33 +183,43 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 HTML, CSS, Javascript, Python
 
-### Frameworks, Libraries & Programs Used
+### Database Used
 
-Balsamiq - Used to create wireframes.
+[MongoDB](https://www.mongodb.com/) - A non-relational database used to store the users login information, the categories and the tasks.
 
-Git - For version control.
+### Frameworks Used
 
-Github - To save and store the files for the website.
+[Flask](https://pypi.org/project/Flask/) - A microframework.
 
-Materialize
+[Materialize](https://materializecss.com/) - Version 1.0.0 for the front end framework.
 
-Flask
+### Libraries & Packages Used
 
-MongoDB
+[Font Awesome](https://fontawesome.com/v5/search) - Version 5.15.3 - For the iconography on the website.
 
-Font Awesome - For the iconography on the website.
+[PyMongo](https://pypi.org/project/pymongo/) - Python Driver for MongoDB.
 
-Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+### Programs Used
+
+[Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+
+[Git](https://git-scm.com/) - For version control.
+
+[Github](https://github.com/) - To save and store the files for the website.
+
+[Google Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
 [Tiny PNG](https://tinypng.com/) To compress images.
-
-[Birme](https://www.birme.net/) To resize images and convert to webp format.
 
 [Favicon.io](https://favicon.io/) To create favicon.
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 [Shields.io](https://shields.io/) To add badges to the README
+
+[Pip](https://pypi.org/project/pip/) - Tool for installing python packages
+
+[Jinja](https://jinja.palletsprojects.com/en/3.1.x/) - Templating engine
 
 ### Defensive Programming
 
