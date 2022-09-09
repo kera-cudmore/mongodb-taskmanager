@@ -28,11 +28,11 @@ Link to deployed site: [MongoDB Task Manager](https://mongodb-taskmanager.heroku
   * [Languages Used](#Languages-Used)
   * [Database Used](#Database-Used)
   * [Frameworks Used](#Frameworks-Used)
-  * [Libraries & Packages Used](#Libraries-&-Packages-Used)
+  * [Libraries & Packages Used](#libraries--packages-used)
   * [Programs Used](#Programs-Used)
   * [Defensive Programming](#Defensive-Programming)
 
-* [Deployment & Local Development](#Deployment-&-Local-Development)
+* [Deployment & Local Development](#deployment--local-development)
   * [Deployment](#Deployment)
   * [Local Development](#Local-Development)
     * [How to Fork](#How-to-Fork)
@@ -301,7 +301,7 @@ To clone the repository:
 
 ## Testing
 
-Please see [testing.md](testing.md) for all testing performed
+Please see [testing.md](TESTING.md) for all testing performed
 
 - - -
 
